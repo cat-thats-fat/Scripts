@@ -1,6 +1,6 @@
 # Uncategorized Scripts
 
-### toggle_plugin.py
+## toggle_plugin.py
 
 This is a script for pwnagotchi that will toggled the provided plugin.
 
