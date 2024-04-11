@@ -37,7 +37,7 @@ def toggle(plugin, enable):
         "plugin": plugin
     }
 
-    #check if we are enabling or disabling the plugin
+    #Check if we are enabling or disabling the plugin
     if enable == 1: params.pop("enabled", None)
     print(params)
     response = s.post(toggle_url, headers=headers, data=params)
@@ -50,7 +50,7 @@ enable = 0
 
 response = toggle(plugin, enable)
 
-#if the plugin is already enabled, disable it
+#If the plugin is already enabled, disable it
 if response == "failed":
     enable = 1
     response = toggle(plugin, enable)
