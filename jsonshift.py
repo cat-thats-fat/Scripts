@@ -1,7 +1,7 @@
 import json
 import datetime
 
-print("Would you like to limit results to shifts before and including today?(Y/N)")
+print("Would you like to limit results to shifts to before and including today?(Y/N)")
 userInput = input()
 
 shifts = {}
