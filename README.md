@@ -1,8 +1,15 @@
 # Uncategorized Scripts
 
+## jsonshift
+
+Parses json formatted file to count shifts 
+
+## Advising
+Poor script made to sniper QueensU advising queue
+
 ## toggle_plugin.py
 
-This is a script for pwnagotchi that will toggled the provided plugin.
+This is a script for pwnagotchi that will toggled the provided plugin for pwnagotchi.
 
 Configuration:
 
